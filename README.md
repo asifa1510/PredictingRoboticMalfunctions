@@ -1,4 +1,4 @@
-predicting issues in Robotic Assisted Surgeries
+Predicting Issues in Robotic Assisted Surgeries
 
 
-case: cholecystectomy 
+Case: Cholecystectomy 
