@@ -1,6 +1,6 @@
-# 🔬 Predicting Errors in Robotic-Assisted Cholecystectomy  
+# Predicting Errors in Robotic-Assisted Cholecystectomy  
 
-## 📌 Project Overview  
+## Project Overview  
 This project builds a system to **predict surgical errors in robotic-assisted laparoscopic cholecystectomy** (gallbladder removal) using the **Cholec80 dataset**.  
 
 Since Cholec80 does not provide explicit error labels, we designed **rule-based heuristics** (tool–phase mismatches, multitool usage, abnormal phase durations) to approximate error events. These are used to train models that predict **future hazards (10s, 20s, 30s ahead)**.  
@@ -9,7 +9,7 @@ We compare a **baseline GRU** with a **Liquid Neural Network (LNN)** — showing
 
 ---
 
-## 📂 Dataset  
+##  Dataset  
 - **Source:** [Cholec80](http://camma.u-strasbg.fr/datasets) (University Hospital of Strasbourg / IRCAD).  
 - **Subset used:** 15 videos (with corresponding *phase* and *tool* annotation files).  
 - **Annotations:**  
@@ -18,7 +18,7 @@ We compare a **baseline GRU** with a **Liquid Neural Network (LNN)** — showing
 
 ---
 
-## ⚙️ Methodology  
+## Methodology  
 
 ### 1. Preprocessing  
 - Extract **per-second features**:  
@@ -50,4 +50,13 @@ We compare a **baseline GRU** with a **Liquid Neural Network (LNN)** — showing
 - **Event-level:**  
   - Median lead-time (how early hazards predicted).  
   - False alerts per 10 minutes.  
-- **Visualization:** Risk timelines vs. ground truth hazards.  
+- **Visualization:** Risk timelines vs. ground truth hazards.
+
+  ## 📊 Results (Example)  
+| Model | AUROC (10/20/30s) | AUPRC (10/20/30s) | Median Lead-time | False Alerts/10min |
+|-------|-------------------|-------------------|------------------|--------------------|
+| GRU   |                   |                   |                  |                    |
+| LNN   |                   |                   |                  |                    |
+
+_ consistently provides **earlier warnings** and **fewer false positives**.  
+
