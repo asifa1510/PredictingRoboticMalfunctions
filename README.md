@@ -1,14 +1,7 @@
-  Predicting Errors in Robotic-Assisted Cholecystectomy  
-        
-Case: Cholecystectomy 
-A cholecystectomy is a surgical procedure to remove the gallbladder. It is a very common surgery, often performed to treat gallstones and other related conditions
-  
- **Predicting Errors in Robotic-Assisted Cholecystectomy**
+# 🔬 Predicting Errors in Robotic-Assisted Cholecystectomy  
 
-
-**Project Overview**
+## 📌 Project Overview  
 This project builds a system to **predict surgical errors in robotic-assisted laparoscopic cholecystectomy** (gallbladder removal) using the **Cholec80 dataset**.  
-
 
 Since Cholec80 does not provide explicit error labels, we designed **rule-based heuristics** (tool–phase mismatches, multitool usage, abnormal phase durations) to approximate error events. These are used to train models that predict **future hazards (10s, 20s, 30s ahead)**.  
 
