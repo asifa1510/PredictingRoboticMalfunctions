@@ -86,3 +86,5 @@ We compare a **baseline GRU** with a **Liquid Neural Network (LNN)** — showing
 
 The GRU model consistently provides **earlier warnings** and **fewer false positives**.  
 
+
+>The GRU model excels with low loss (0.5003), high AUROC (0.940/0.925/0.917), AUPRC (0.914/0.896/0.887), and balanced F1 (0.821/0.808/0.793), outperforming LNN. Monitor slight overfitting in later epochs.
