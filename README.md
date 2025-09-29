@@ -8,7 +8,7 @@ Since Cholec80 does not provide explicit error labels, we designed **rule-based 
 We compare a **baseline GRU** with a **Liquid Neural Network (LNN)** — showing that LNNs provide earlier warnings with fewer false alerts.  
 
 ---
-
+ 
 ##  Dataset  
 - **Source:** [Cholec80](http://camma.u-strasbg.fr/datasets) (University Hospital of Strasbourg / IRCAD).  
 - **Subset used:** 15 videos (with corresponding *phase* and *tool* annotation files).  
@@ -57,6 +57,7 @@ We compare a **baseline GRU** with a **Liquid Neural Network (LNN)** — showing
 |-------|-------------------|-------------------|------------------|--------------------|
 | GRU   |                   |                   |                  |                    |
 | LNN   |                   |                   |                  |                    |
+|LNN+GRU|                   |                   |                  |                    |
 
 _ consistently provides **earlier warnings** and **fewer false positives**.  
 
