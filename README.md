@@ -79,11 +79,10 @@ We compare a **baseline GRU** with a **Liquid Neural Network (LNN)** — showing
 - **Visualization:** Risk timelines vs. ground truth hazards.
 
   ## 📊 Results (Example)  
-| Model | AUROC (10/20/30s) | AUPRC (10/20/30s) | Median Lead-time | False Alerts/10min |
-|-------|-------------------|-------------------|------------------|--------------------|
-| GRU   |                   |                   |                  |                    |
-| LNN   |                   |                   |                  |                    |
-|LNN+GRU|                   |                   |                  |                    |
+| Model | AUROC (10/20/30s) | AUPRC (10/20/30s) | False Alerts/10min 
+|-------|-------------------|-------------------|--------------------------------------|
+| GRU   | 0.940/0.925/0.917 |0.914/0.896/0.887  |                                      |
+| LNN   | 0.685/0.681/0.592 |0.590/0.587/0.544  |                                      |
 
-_ consistently provides **earlier warnings** and **fewer false positives**.  
+The GRU model consistently provides **earlier warnings** and **fewer false positives**.  
 
