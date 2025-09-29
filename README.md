@@ -27,15 +27,33 @@ We compare a **baseline GRU** with a **Liquid Neural Network (LNN)** — showing
   - Time-in-phase counter (1).  
   - Active tool count (1).  
 - Detect **rule-based errors**:  
-  -Tool–phase mismatch 
-  -Too many tools active (>2) 
-  -Too short phases (<5s) 
+  -Tool–phase mismatch
+
+  
+  -Too many tools active (>2)
+
+  
+  -Too short phases (<5s)
+
+  
   -Phase order violation
+
+  
   -Required tool missing in critical phases
+
+  
   -Prolonged inactivity (no tools for >30s)
+
+  
   -Abrupt tool switches (>3 in 5s)
+
+  
   -Phase overrun (too long)
+
+  
   -Forbidden tool combinations
+
+  
   -Tool appears too early (before expected phase)
 
 
