@@ -88,3 +88,7 @@ The GRU model consistently provides **earlier warnings** and **fewer false posit
 
 
 >The GRU model excels with low loss (0.5003), high AUROC (0.940/0.925/0.917), AUPRC (0.914/0.896/0.887), and balanced F1 (0.821/0.808/0.793), outperforming LNN. Monitor slight overfitting in later epochs.
+>
+
+<img width="1867" height="996" alt="image" src="https://github.com/user-attachments/assets/72b73d53-ec42-479c-8b47-e71fddd68048" />
+
