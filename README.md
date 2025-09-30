@@ -66,8 +66,8 @@ We compare a **baseline GRU** with a **Liquid Neural Network (LNN)** — showing
   - `y_30s`: hazard within next 30s.  
 
 ### 3. Models  
-- **Baseline:** GRU sequence model.  
-- **Proposed:** Liquid Neural Network (LNN).  
+- GRU sequence model.  
+- Liquid Neural Network (LNN).  
 - Input: sliding windows (120s).  
 - Output: risk scores for 10s/20s/30s horizons.  
 
