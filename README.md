@@ -5,7 +5,7 @@ This project builds a system to **predict surgical errors in robotic-assisted la
 
 Since Cholec80 does not provide explicit error labels, we designed **rule-based heuristics** (tool–phase mismatches, multitool usage, abnormal phase durations) to approximate error events. These are used to train models that predict **future hazards (10s, 20s, 30s ahead)**.  
 
-We compare a **baseline GRU** with a **Liquid Neural Network (LNN)** — showing that LNNs provide earlier warnings with fewer false alerts.  
+We compare a **baseline GRU** with a **Liquid Neural Network (LNN)** — showing that GRUs provide earlier warnings with fewer false alerts.  
 
 ---
  
