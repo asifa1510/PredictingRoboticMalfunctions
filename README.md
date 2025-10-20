@@ -96,6 +96,10 @@ The GRU model consistently provides **earlier warnings** and **fewer false posit
 
 level1 : predicting risk scores
 <img width="1919" height="972" alt="image" src="https://github.com/user-attachments/assets/37a99c5b-736b-41fb-9235-106d7d1d22ad" />
+
+
 ---
+
+
 level2: making accurate predictions on type of errors based on the rules fixed(developing)
 
