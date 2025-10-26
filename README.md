@@ -12,7 +12,7 @@ The original Cholec80 GRU baseline setup can be found in [Notebook 1](https://gi
 
 ---
 
-## 💡 Why This Project Matters  
+## Why This Project Matters  
 In robotic-assisted surgery, even subtle deviations in motion, control, or workflow timing can cascade into serious surgical errors.  
 However, existing systems mainly **detect** errors *after* they occur — none focus on **predicting** them in real time.  
 
@@ -25,7 +25,7 @@ This capability can help reduce human error, alert operating surgeons earlier, a
 
 ---
 
-## 📦 Datasets  
+##  Datasets  
 
 ### **1️⃣ Cholec80 (Contextual Base Dataset)**  
 - **Source:** [IRCAD / University Hospital of Strasbourg](http://camma.u-strasbg.fr/datasets)  
@@ -38,7 +38,7 @@ This capability can help reduce human error, alert operating surgeons earlier, a
 
 ---
 
-## 🧮 Cholec80 Rules & Preprocessing  
+## Cholec80 Rules & Preprocessing  
 
 ### **Feature Extraction (per-second features):**  
 - One-hot encoded surgical phase (7)  
@@ -90,7 +90,7 @@ This structure allows models to **anticipate** errors instead of merely classify
 
 ---
 
-## ⚙️ Methodology (Overview)  
+## Methodology (Overview)  
 
 ### **1. Feature Engineering (ECRCD)**  
 - Mean and standard deviation per joint and control point  
@@ -105,7 +105,7 @@ This structure allows models to **anticipate** errors instead of merely classify
 
 ---
 
-## 🧠 Training Setup  
+##  Training Setup  
 
 - **Loss Function:** Binary Cross-Entropy with Logits (`BCEWithLogitsLoss`)  
 - **Class Balancing:** `pos_weight` calculated dynamically from label ratios  
@@ -120,7 +120,7 @@ This structure allows models to **anticipate** errors instead of merely classify
 
 ---
 
-## 📈 Evaluation Metrics  
+##  Evaluation Metrics  
 
 | Horizon | AUROC | AUPRC | F1 | Precision | Recall |
 |----------|-------|-------|----|------------|---------|
@@ -134,7 +134,7 @@ This structure allows models to **anticipate** errors instead of merely classify
 
 ---
 
-## ⚖️ Baseline Comparison (Notebook 2 / Cholec80)  
+##  Baseline Comparison (Notebook 2 / Cholec80)  
 
 | Model | AUROC (10/20/30 s) | AUPRC (10/20/30 s) |
 |--------|--------------------|--------------------|
