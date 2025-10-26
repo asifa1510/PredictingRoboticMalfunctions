@@ -146,3 +146,7 @@ and discussed in [arXiv:2412.12238v1](https://arxiv.org/html/2412.12238v1),
 the **GRU model** consistently outperforms Liquid Neural Networks (LNNs) in both stability and early-warning accuracy.  
 
 ---
+1st prototype : with cholec80
+<img width="500" height="500" alt="Screenshot 2025-09-30 050441" src="https://github.com/user-attachments/assets/3072088b-37f5-4f43-b04f-6fc6292be158" />
+
+<img width="500" height="500" alt="Screenshot 2025-09-30 062525" src="https://github.com/user-attachments/assets/1fcb100f-05dd-48e3-825a-961d160ad36a" />
