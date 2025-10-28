@@ -1,5 +1,5 @@
 # 🩺 Predicting Errors in Robotic-Assisted Cholecystectomy  
-
+ 
 ## 📘 Project Overview  
 This project develops a **hybrid deep learning system** to predict **surgical errors and hazardous events** during **robotic-assisted laparoscopic cholecystectomy** (gallbladder removal).  
 
